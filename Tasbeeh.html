@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Tasbeeh.css">
+    <title>Tasbeeh Counter</title>
+    <script src="Tasbeeh.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Tasbeeh Counter</h1>
+        <div class="sub">
+            <div class="left">
+                <div class="display"><div id="val">00</div></div>
+                <div class="records">
+                    <div class="azkar">
+                        <div>Subhanallah</div>
+                        <div class="record1" id="subh">00</div>
+                    </div>
+                    <div class="azkar">
+                        <div>Alhamdulillah</div>
+                        <div class="record1" id="wal">00</div>
+                    </div>
+                    <div class="azkar">
+                        <div>Allahu Akbar</div>
+                        <div class="record1" id="akbr">00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide1">
+                <input type="range" min="1" max="200" value="6" class="slider" id="myRange">
+            </div>        
+        </div>
+        <div class="slide2">
+            <input type="range" name="reset" min="1" max="200" value="6" class="slider" id="myRange2">
+        </div>  
+    </div>
+</body>
+</html>

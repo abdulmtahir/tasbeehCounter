@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    height: 450px;
+    width: 260px;
+    background-color: darkslategray;
+    border-radius: 20px;
+    margin-top: 70px;
+    margin-left: 38%;
+    color: floralwhite;
+    box-shadow: 10px 10px 5px black;
+}
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    text-shadow: 8px 8px 15px black, 15px 0 15px black;
+}
+.sub {
+    position: relative;
+    width: 89%;
+    height: 270px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.left {
+    height: 100%;
+}
+
+.display {
+    height: 140px;
+    width: 140px;
+    border-radius: 21px;
+    background-color: black;
+    display: grid;
+    place-items: center;
+    font-size: 95px;
+    border: solid floralwhite;
+}
+.records {
+    margin-top: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.azkar {
+    display: flex;
+    margin-top: 3px;
+}
+.azkar div {
+    text-shadow: 8px 8px 15px black, 5px 5px 5px black;
+
+}
+.record1 {
+    margin-left: 10px;
+    background-color: black;
+}
+
+.slider {
+    -webkit-appearance: none;
+    height: 60px;
+    width: 265px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 50px;
+}
+ .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 59px;
+    height: 59px;
+    background-color: floralwhite;
+    border-radius: 100%;
+ }
+ 
+ .slide1 {
+    position: absolute;
+    top: 100px;
+    left: 63px;
+    transform: rotate(90deg);
+ }
+
+ #myRange2 {
+    width: 232px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
